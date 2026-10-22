@@ -41,6 +41,81 @@
       ]
     },
     {
+      "id": "mission",
+      "title": "Research mission",
+      "visible": true,
+      "items": [
+        {
+          "title": "Prevention before crisis",
+          "description": "I study how lifestyle, multimorbidity and socioeconomic conditions shape health trajectories so evidence can help identify risks earlier, prevent avoidable illness and support healthier ageing. My aim is to make epidemiological findings useful to patients, communities and policymakers."
+        }
+      ]
+    },
+    {
+      "id": "featured",
+      "title": "Featured research",
+      "visible": true,
+      "items": [
+        {
+          "title": "Effect of morbidity on the association between lifestyle and mortality in the Health Examinee cohort",
+          "description": "Kaggwa A, Kityo A, Lee S-A. Epidemiology and Health (2026). DOI: 10.4178/epih.e2026022. In a cohort of 111,537 Korean adults aged 40–69 years, less healthy lifestyle scores were associated with higher mortality across morbidity groups. The association was notable among adults with multimorbidity.",
+          "url": "https://doi.org/10.4178/epih.e2026022"
+        }
+      ],
+      "stats": [
+        {
+          "value": "111,537",
+          "label": "Participants"
+        },
+        {
+          "value": "3,366",
+          "label": "Deaths"
+        },
+        {
+          "value": "10.6 years",
+          "label": "Median follow-up"
+        }
+      ]
+    },
+    {
+      "id": "visualizations",
+      "title": "Research visualisations",
+      "visible": true,
+      "items": [
+        {
+          "title": "Lifestyle and mortality across morbidity groups",
+          "description": "Adjusted hazard ratios comparing the least healthy weighted lifestyle score tertile (T3) with the healthiest (T1). Select a morbidity group to view its published point estimate and 95% confidence interval. These group-level associations are not personal mortality predictions.",
+          "url": "https://doi.org/10.4178/epih.e2026022"
+        }
+      ],
+      "chart": {
+        "type": "hazard",
+        "groups": [
+          {
+            "label": "No chronic disease",
+            "hr": 1.4,
+            "lo": 1.13,
+            "hi": 1.74
+          },
+          {
+            "label": "One chronic disease",
+            "hr": 1.68,
+            "lo": 1.39,
+            "hi": 2.03
+          },
+          {
+            "label": "Multimorbidity",
+            "hr": 1.62,
+            "lo": 1.31,
+            "hi": 2.01
+          }
+        ],
+        "reference": "T3 versus T1 of weighted lifestyle score; adjusted HR (95% CI)",
+        "citation": "Kaggwa et al. Epidemiology and Health 2026;48:e2026022",
+        "url": "https://doi.org/10.4178/epih.e2026022"
+      }
+    },
+    {
       "id": "research",
       "title": "Research interests",
       "visible": true,
@@ -216,6 +291,30 @@
         {
           "title": "FoodHub Order Analysis",
           "description": "January 2024. Exploratory analysis, visualisation and statistics."
+        }
+      ]
+    },
+    {
+      "id": "portfolio",
+      "title": "Data science portfolio",
+      "visible": true,
+      "items": [
+        {
+          "title": "Building a recommendation system to recommend the best Amazon products to users",
+          "description": "March 2024 · Recommendation Systems course. Rank-based recommendation, similarity-based methods and matrix factorisation using past product ratings."
+        },
+        {
+          "title": "Predicting Potential Customers",
+          "description": "March 2024 · Classification and Hypothesis Testing course. Decision trees, random forests and hyperparameter tuning for lead conversion classification."
+        },
+        {
+          "title": "FoodHub Order Analysis",
+          "description": "January 2024 · Foundations: Python and Statistics course. Exploratory data analysis, data visualisation and statistics to investigate restaurant order patterns."
+        },
+        {
+          "title": "Data Science and Machine Learning: Making Data Driven Decisions",
+          "description": "MIT IDSS / Great Learning professional certificate · December 2023–April 2024 · Certificate ID HSBGZACR. Professional programme, not an MIT academic degree.",
+          "url": "https://www.mygreatlearning.com/certificate/HSBGZACR"
         }
       ]
     },
