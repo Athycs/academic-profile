@@ -18,6 +18,14 @@
     {
       "label": "MIT IDSS / Great Learning certificate",
       "url": "https://www.mygreatlearning.com/certificate/HSBGZACR"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:kaggwaabrahamaka@gmail.com"
+    },
+    {
+      "label": "WhatsApp",
+      "url": "https://wa.me/821051995994"
     }
   ],
   "sections": [
@@ -217,10 +225,19 @@
       "visible": true,
       "items": [
         {
+          "title": "Email",
+          "description": "kaggwaabrahamaka@gmail.com",
+          "url": "mailto:kaggwaabrahamaka@gmail.com"
+        },
+        {
+          "title": "WhatsApp",
+          "description": "+82 10 5199 5994",
+          "url": "https://wa.me/821051995994"
+        },
+        {
           "title": "Research collaboration",
-          "description": "For research and professional enquiries, use the public links shown below."
-          "Email": "kaggwaabrahamaka@gmail.com"
-          "whatsapp": "82 10 5199 5994"
+          "description": "For research and professional enquiries, use the public links shown below.",
+          "url": ""
         }
       ]
     }
